@@ -4,7 +4,7 @@ import SkillsUI from "./UI/SkillsUI";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full  bg-[#f6f6f6]">
+    <div name="skills" className="w-full  bg-[#f6f6f6] sm:py-[3rem]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="mt-10 border-b-[1px] border-[#ccc] pb-3 text-center sm:text-left">
           <p className="text-4xl  sm:text-5xl font-bold inline text-primary-text">
