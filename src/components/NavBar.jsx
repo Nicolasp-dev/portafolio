@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+// import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
@@ -11,7 +11,7 @@ const NavBar = () => {
 
   return (
     <div className="fixed w-full h-[80px] shadow-xl bg-transparent backdrop-blur-sm z-50">
-      <div className="w-full h-full bg-[#00000066]  ">
+      <div className="w-full h-full bg-[#242e4ceb]  ">
         {/* Menu */}
         <ul className="h-full hidden md:flex gap-8 text-xl tracking-wider text-[#fff] items-center justify-between mx-4">
           <div className="flex">
