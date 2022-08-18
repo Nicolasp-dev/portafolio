@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.59539b0d.css",
-    "main.js": "/portafolio/static/js/main.eb72df06.js",
+    "main.css": "/portafolio/static/css/main.25007737.css",
+    "main.js": "/portafolio/static/js/main.c6df0719.js",
     "static/media/BankAppDemo.png": "/portafolio/static/media/BankAppDemo.92529dc6dd2e9d541cdd.png",
     "static/media/Vet-teams.png": "/portafolio/static/media/Vet-teams.87abb069948c3ec04278.png",
     "static/media/HomBg.jpg": "/portafolio/static/media/HomBg.74c350d2e7f35ddad30b.jpg",
@@ -17,11 +17,11 @@
     "static/media/javascript.png": "/portafolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/wave.svg": "/portafolio/static/media/wave.e7b6696258d6cb6f1d79dd0c1167764e.svg",
     "index.html": "/portafolio/index.html",
-    "main.59539b0d.css.map": "/portafolio/static/css/main.59539b0d.css.map",
-    "main.eb72df06.js.map": "/portafolio/static/js/main.eb72df06.js.map"
+    "main.25007737.css.map": "/portafolio/static/css/main.25007737.css.map",
+    "main.c6df0719.js.map": "/portafolio/static/js/main.c6df0719.js.map"
   },
   "entrypoints": [
-    "static/css/main.59539b0d.css",
-    "static/js/main.eb72df06.js"
+    "static/css/main.25007737.css",
+    "static/js/main.c6df0719.js"
   ]
 }
