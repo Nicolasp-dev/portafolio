@@ -25,7 +25,23 @@ export const DUMMY_SKILLS = [
 ];
 
 export const DUMMY_WORKS = [
-  { image: `${vetTeams}` },
-  { image: `${BankApp}` },
-  { image: `${Guess}` },
+  {
+    image: `${vetTeams}`,
+    gitHub:
+      " https://github.com/gabrielcontrerasv/top-gun-javascript-project.git",
+    website: "https://tglpet.vercel.app/",
+    center: false,
+  },
+  {
+    image: `${BankApp}`,
+    gitHub: "https://github.com/Nicolas-pc-dev/Guess-My-Number",
+    website: "https://npc-bankappdemo.netlify.app/",
+    center: true,
+  },
+  {
+    image: `${Guess}`,
+    gitHub: "https://github.com/Nicolas-pc-dev/Guess-My-Number",
+    website: "https://nicolas-pc-dev.github.io/Guess-My-Number/",
+    center: true,
+  },
 ];

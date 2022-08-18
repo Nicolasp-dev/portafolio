@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
-// import { BsFillPersonLinesFill } from "react-icons/bs";
+import { FaBars, FaTimes } from "react-icons/fa";
+import SideIcons from "./UI/SideIcons";
+
 import { Link } from "react-scroll";
 
 const NavBar = () => {
@@ -10,9 +10,15 @@ const NavBar = () => {
   const clickHandler = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] shadow-xl bg-transparent backdrop-blur-sm z-50">
-      <div className="w-full h-full bg-[#242e4ceb]  ">
+    <div className="fixed w-full h-[4rem] sm:h-[5rem] shadow-xl bg-transparent backdrop-blur-sm z-50">
+      <div className="w-full h-full bg-[#41414187]  ">
         {/* Menu */}
+        <div
+          onClick={clickHandler}
+          className="md:hidden z-20 text-[#fff] text-4xl absolute top-4 left-5"
+        >
+          {!nav ? <FaBars /> : <FaTimes />}
+        </div>
         <ul className="h-full hidden md:flex gap-8 text-xl tracking-wider text-[#fff] items-center justify-between mx-4">
           <div className="flex">
             <li className="hover:scale-[1.1] duration-300">
@@ -47,18 +53,16 @@ const NavBar = () => {
       </div>
 
       {/* Hamburger */}
-      <div onClick={clickHandler} className="md:hidden z-10">
-        {!nav ? <FaBars /> : <FaTimes />}
-      </div>
+
       {/* Mobile Menu */}
       <div
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#00445bf7] flex flex-col justify-center items-center text-[#fff] text-2xl "
         }
       >
-        <ul>
+        <ul className="text-center">
           <li className="py-6 text-4xl">
             <Link onClick={clickHandler} to="home" smooth={true} duration={500}>
               Home
@@ -90,47 +94,14 @@ const NavBar = () => {
             </Link>
           </li>
           <li className="py-6 text-4xl">
-            <Link
-              onClick={clickHandler}
-              to="contact"
-              smooth={true}
-              duration={500}
-            >
-              Contact
+            <Link onClick={clickHandler} smooth={true} duration={500}>
+              Descargar CV
             </Link>
           </li>
         </ul>
       </div>
 
-      {/* Social Icons */}
-      <div className="hidden lg:flex fixed flex-col top-[15rem] left-0">
-        <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0a66c2] rounded-tr-md text-[#fff]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300 ml-5"
-              href="/"
-            >
-              LinkedIn <FaLinkedin size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#1f1e1e] text-[#fff]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300 ml-5"
-              href="/"
-            >
-              Git-Hub <FaGithub size={30} />
-            </a>
-          </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#af7938] text-[#fff] ">
-            <a
-              className="flex justify-between items-center w-full text-gray-300 ml-5"
-              href="/"
-            >
-              Email <HiOutlineMail size={30} />
-            </a>
-          </li>
-        </ul>
-      </div>
+      <SideIcons />
     </div>
   );
 };
