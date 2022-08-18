@@ -7,6 +7,8 @@ import Mongo from "./assets/mongo.png";
 import Node from "./assets/node.png";
 import ReactImg from "./assets/react.png";
 import NextJs from "./assets/nextjs.png";
+import Figma from "./assets/Figma.png";
+import Git from "./assets/Git.png";
 
 import vetTeams from "./assets/Vet-teams.png";
 import Guess from "./assets/Guess.png";
@@ -16,11 +18,13 @@ export const DUMMY_SKILLS = [
   { title: "HTML", image: `${Html}` },
   { title: "CSS", image: `${Css}` },
   { title: "JavaScript", image: `${Js}` },
-  { title: "React", image: `${ReactImg}` },
+  { title: "Figma", image: `${Figma}` },
   { title: "Tailwind", image: `${Tailwind}` },
+  { title: "React", image: `${ReactImg}` },
   { title: "NextJS", image: `${NextJs}` },
   { title: "NodeJS", image: `${Node}` },
   { title: "MongoDB", image: `${Mongo}` },
+  { title: "Git", image: `${Git}` },
   { title: "Git-Hub", image: `${GitHub}` },
 ];
 
