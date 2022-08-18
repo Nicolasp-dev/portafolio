@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.25007737.css",
-    "main.js": "/portafolio/static/js/main.c6df0719.js",
+    "main.js": "/portafolio/static/js/main.1e4c3c87.js",
     "static/media/BankAppDemo.png": "/portafolio/static/media/BankAppDemo.92529dc6dd2e9d541cdd.png",
     "static/media/Vet-teams.png": "/portafolio/static/media/Vet-teams.87abb069948c3ec04278.png",
     "static/media/HomBg.jpg": "/portafolio/static/media/HomBg.74c350d2e7f35ddad30b.jpg",
@@ -10,18 +10,18 @@
     "static/media/mongo.png": "/portafolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
     "static/media/Guess.png": "/portafolio/static/media/Guess.29ed5ea808974db2172a.png",
     "static/media/nextjs.png": "/portafolio/static/media/nextjs.48ddc8121a0fcb543d64.png",
-    "static/media/github.png": "/portafolio/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/portafolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/Figma.png": "/portafolio/static/media/Figma.279d3cec18931471fbea.png",
     "static/media/tailwind.png": "/portafolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/portafolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/portafolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "static/media/wave.svg": "/portafolio/static/media/wave.e7b6696258d6cb6f1d79dd0c1167764e.svg",
     "index.html": "/portafolio/index.html",
     "main.25007737.css.map": "/portafolio/static/css/main.25007737.css.map",
-    "main.c6df0719.js.map": "/portafolio/static/js/main.c6df0719.js.map"
+    "main.1e4c3c87.js.map": "/portafolio/static/js/main.1e4c3c87.js.map"
   },
   "entrypoints": [
     "static/css/main.25007737.css",
-    "static/js/main.c6df0719.js"
+    "static/js/main.1e4c3c87.js"
   ]
 }
