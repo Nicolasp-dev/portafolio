@@ -10,7 +10,7 @@ const NavBar = () => {
   const clickHandler = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] shadow-xl bg-transparent backdrop-blur-sm ">
+    <div className="fixed w-full h-[80px] shadow-xl bg-transparent backdrop-blur-sm z-50">
       <div className="w-full h-full bg-[#00000066]  ">
         {/* Menu */}
         <ul className="h-full hidden md:flex gap-8 text-xl tracking-wider text-[#fff] items-center justify-between mx-4">
