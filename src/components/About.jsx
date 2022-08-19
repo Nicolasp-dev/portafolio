@@ -38,7 +38,20 @@ const About = () => {
               "Me apasiona leer, aprender, aplicar y compartir conocimiento
               acerca de la implementación de JavaScript"
             </i>
-            <p className=" text-2xl"> 💻 + ☕ = ❤️ </p>
+            <div>
+              <p className=" text-2xl mb-5">
+                {" "}
+                💻 + ☕ = ❤️ <br />
+              </p>
+              <a
+                href="https://github.com/Nicolas-pc-dev/React-Hooks"
+                target="_blank"
+                rel="noreferrer"
+                className="  sm:text-xl text-primary-text font-normal "
+              >
+                📚 React-hooks (Metodología Cornell)
+              </a>{" "}
+            </div>
           </div>
           <div className="flex flex-col gap-5  sm:text-lg font-thin text-justify">
             <p>
