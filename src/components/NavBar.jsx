@@ -95,9 +95,9 @@ const NavBar = () => {
             </Link>
           </li>
           <li className="py-6 text-4xl">
-            <Link onClick={clickHandler} smooth={true} duration={500}>
+            <a href={CV} download>
               Descargar CV
-            </Link>
+            </a>
           </li>
         </ul>
       </div>
