@@ -10,7 +10,6 @@ const WorkUI = ({ image, gitHub, website, center }) => {
     if (inView) {
       animation.start({
         opacity: 1,
-
         transition: { type: "spring", duration: 1 },
       });
     }
@@ -19,7 +18,6 @@ const WorkUI = ({ image, gitHub, website, center }) => {
         opacity: 0,
       });
     }
-    console.log("useEffect, inView =", inView);
   }, [inView, animation]);
 
   const position = center ? "object-center" : "object-left";

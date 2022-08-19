@@ -15,7 +15,7 @@ const Contact = () => {
         <ul className="absolute bottom-5 w-full lg:hidden flex justify-center flex-col items-center">
           <li className=" h-[4rem] flex justify-between items-center duration-300  rounded-tr-md text-[#fff]">
             <a
-              className="flex justify-between items-center text-gray-300 ml-5 text-2xl"
+              className="flex justify-between items-center text-gray-300 ml-5 text-xl"
               href="https://www.linkedin.com/in/nicolaspe%C3%B1a-dev/"
               rel="noreferrer"
               target="_blank"
@@ -25,7 +25,7 @@ const Contact = () => {
           </li>
           <li className="h-[4rem] flex justify-between items-center duration-300 text-[#fff] rounded-br-md">
             <a
-              className="flex justify-between items-center text-gray-300 ml-5 text-2xl"
+              className="flex justify-between items-center text-gray-300 ml-5 text-xl"
               href="https://github.com/Nicolas-pc-dev"
               rel="noreferrer"
               target="_blank"

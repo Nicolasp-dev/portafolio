@@ -20,14 +20,10 @@ const About = () => {
         y: 50,
       });
     }
-    console.log("useEffect, inView =", inView);
   }, [inView, animation]);
 
   return (
-    <div
-      name="about"
-      className="w-full bg-[#f6f6f6]  py-10  sm:pt-[10rem] sm:pb-[3rem]"
-    >
+    <div name="about" className="w-full bg-[#f6f6f6] py-[6rem]  sm:py-[10rem]">
       <motion.div
         ref={ref}
         animate={animation}
@@ -35,8 +31,8 @@ const About = () => {
       >
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="font-bold flex flex-col justify-between text-center">
-            <p className="text-primary-text text-xl  sm:text-4xl">
-              Un gusto conocerte, Sientete libre de explorar.
+            <p className="text-primary-text text-xl  sm:text-5xl">
+              ¡ Bienvenidos !
             </p>
             <i className="text-primary-text mt-5 sm:mt-0 sm:text-xl font-medium">
               "Me apasiona leer, aprender, aplicar y compartir conocimiento
