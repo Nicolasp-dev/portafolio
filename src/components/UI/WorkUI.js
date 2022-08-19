@@ -1,9 +1,34 @@
-import React from "react";
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
+import { motion, useAnimation } from "framer-motion";
 
 const WorkUI = ({ image, gitHub, website, center }) => {
+  const { ref, inView } = useInView();
+  const animation = useAnimation();
+
+  useEffect(() => {
+    if (inView) {
+      animation.start({
+        opacity: 1,
+
+        transition: { type: "spring", duration: 1 },
+      });
+    }
+    if (!inView) {
+      animation.start({
+        opacity: 0,
+      });
+    }
+    console.log("useEffect, inView =", inView);
+  }, [inView, animation]);
+
   const position = center ? "object-center" : "object-left";
   return (
-    <div className="flex flex-col bg-[#fff] rounded-md shadow-md w-full h-[15rem] sm:h-[35rem] overflow-hidden relative">
+    <motion.div
+      ref={ref}
+      animate={animation}
+      className="flex flex-col bg-[#fff] rounded-md shadow-md w-full h-[15rem] sm:h-[35rem] overflow-hidden relative"
+    >
       <img
         className={`w-full h-full absolute object-cover sm:object-cover ${position} `}
         src={image}
@@ -32,7 +57,7 @@ const WorkUI = ({ image, gitHub, website, center }) => {
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

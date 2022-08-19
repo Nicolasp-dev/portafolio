@@ -1,12 +1,38 @@
-import React from "react";
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
+import { motion, useAnimation } from "framer-motion";
 
 const About = () => {
+  const { ref, inView } = useInView();
+  const animation = useAnimation();
+
+  useEffect(() => {
+    if (inView) {
+      animation.start({
+        opacity: 1,
+        y: 0,
+        transition: { type: "spring", duration: 1 },
+      });
+    }
+    if (!inView) {
+      animation.start({
+        opacity: 0,
+        y: 50,
+      });
+    }
+    console.log("useEffect, inView =", inView);
+  }, [inView, animation]);
+
   return (
     <div
       name="about"
       className="w-full bg-[#f6f6f6]  py-10  sm:pt-[10rem] sm:pb-[3rem]"
     >
-      <div className="flex flex-col justify-center items-center w-full h-full ">
+      <motion.div
+        ref={ref}
+        animate={animation}
+        className="flex flex-col justify-center items-center w-full h-full "
+      >
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="font-bold flex flex-col justify-between text-center">
             <p className="text-primary-text text-xl  sm:text-4xl">
@@ -34,7 +60,7 @@ const About = () => {
             </p>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

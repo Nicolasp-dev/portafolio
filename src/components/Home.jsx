@@ -2,8 +2,14 @@ import React from "react";
 import HomeBg from "../assets/Images/HomBg.jpg";
 import { Link } from "react-scroll";
 import { MdOutlineDoubleArrow } from "react-icons/md";
+import { motion } from "framer-motion";
 
 const Home = () => {
+  const homeVariants = {
+    hidden: { opacity: 0 },
+    show: { opacity: 1, transition: { duration: 1 } },
+  };
+
   return (
     <div
       name="home"
@@ -11,7 +17,12 @@ const Home = () => {
     >
       <img className="w-full h-full absolute z-0" src={HomeBg} alt="" />
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-[20rem] absolute gap-8 text-[#fff] text-center pt-10 z-20">
+      <motion.div
+        className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-[20rem] absolute gap-8 text-[#fff] text-center pt-10 z-20"
+        variants={homeVariants}
+        initial="hidden"
+        animate="show"
+      >
         <h1 className="text-3xl sm:text-5xl font-bold shadow-2xl">
           Nicolas Peña
         </h1>
@@ -27,7 +38,7 @@ const Home = () => {
             <MdOutlineDoubleArrow className="text-6xl sm:text-8xl rotate-90 cursor-pointer hover:translate-y-5 duration-300" />
           </Link>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
