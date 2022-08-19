@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import SideIcons from "./UI/SideIcons";
+import CV from "../CV-NicolasPeña.pdf";
 
 import { Link } from "react-scroll";
 
@@ -44,7 +45,7 @@ const NavBar = () => {
           </div>
           <div>
             <li className="hover:scale-[1.1] duration-300">
-              <a href="/CV-NicolasPeña.pdf" download>
+              <a href={CV} download>
                 Descargar CV
               </a>
             </li>
