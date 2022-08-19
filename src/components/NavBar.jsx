@@ -44,9 +44,9 @@ const NavBar = () => {
           </div>
           <div>
             <li className="hover:scale-[1.1] duration-300">
-              <Link to="contact" smooth={true} duration={500}>
+              <a href="/CV-NicolasPeña.pdf" download>
                 Descargar CV
-              </Link>
+              </a>
             </li>
           </div>
         </ul>

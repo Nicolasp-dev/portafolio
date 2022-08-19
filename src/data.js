@@ -1,18 +1,18 @@
-import Tailwind from "./assets/tailwind.png";
-import Css from "./assets/css.png";
-import GitHub from "./assets/github.png";
-import Html from "./assets/html.png";
-import Js from "./assets/javascript.png";
-import Mongo from "./assets/mongo.png";
-import Node from "./assets/node.png";
-import ReactImg from "./assets/react.png";
-import NextJs from "./assets/nextjs.png";
-import Figma from "./assets/Figma.png";
-import Git from "./assets/Git.png";
+import Tailwind from "./assets/Images/tailwind.png";
+import Css from "./assets/Images/css.png";
+import GitHub from "./assets/Images/github.png";
+import Html from "./assets/Images/html.png";
+import Js from "./assets/Images/javascript.png";
+import Mongo from "./assets/Images/mongo.png";
+import Node from "./assets/Images/node.png";
+import ReactImg from "./assets/Images/react.png";
+import NextJs from "./assets/Images/nextjs.png";
+import Figma from "./assets/Images/Figma.png";
+import Git from "./assets/Images/Git.png";
 
-import vetTeams from "./assets/Vet-teams.png";
-import Guess from "./assets/Guess.png";
-import BankApp from "./assets/BankAppDemo.png";
+import vetTeams from "./assets/Images/Vet-teams.png";
+import Guess from "./assets/Images/Guess.png";
+import BankApp from "./assets/Images/BankAppDemo.png";
 
 export const DUMMY_SKILLS = [
   { title: "HTML", image: `${Html}` },

@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import Waves from "../assets/wave.svg";
+import Waves from "../assets/Images/wave.svg";
 
 const Contact = () => {
   return (
