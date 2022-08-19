@@ -21,17 +21,16 @@ const About = () => {
           <div className="flex flex-col gap-5  sm:text-lg font-thin text-justify">
             <p>
               Mi nombre es Nicolás Peña, soy médico veterinario con tres años de
-              experiencia profesional; sin embargo, he decidido migrar de
-              profesión cautivado por el impacto que la tecnología y sus
-              múltiples ramas de conocimiento tienen en el diario vivir, además
-              de los cambios globales que vivimos actualmente.
+              experiencia profesional; Decidí ampliar mi conocimiento cautivado
+              por el impacto que las tecnologías tienen en el diario vivir y
+              motivado por los cambios globales, los cuales obligan
+              imperiosamente a prepararse y desarrollar habilidades IT.
             </p>
             <p>
-              Por lo anterior, inicié una ruta de aprendizaje autónoma enfocada
-              al entendimiento de JavaScript y su aplicación en el desarrollo
-              web. Con disciplina, dedicación y persistencia he logrado
-              comprender y plasmar los conocimientos adquiridos en mis proyectos
-              personales.
+              Por lo anterior, inicié una ruta de aprendizaje enfocada al
+              entendimiento de JavaScript y su aplicación en el desarrollo web.
+              Con disciplina, dedicación y persistencia he logrado comprender y
+              plasmar los conocimientos adquiridos en mis proyectos personales.
             </p>
           </div>
         </div>
