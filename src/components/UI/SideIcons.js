@@ -36,7 +36,7 @@ const SideIcons = () => {
         >
           <a
             className="ml-2 flex justify-around items-center gap-7 text-gray-300 "
-            href="https://github.com/Nicolas-pc-dev"
+            href="https://github.com/Nicolasp-dev"
             rel="noreferrer"
             target="_blank"
           >
