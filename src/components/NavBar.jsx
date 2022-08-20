@@ -79,7 +79,7 @@ const NavBar = () => {
           variants={mobileVariant}
           animate={nav ? "open" : "close"}
         >
-          <ul className="text-center mt-[5rem]">
+          <ul className="text-center ">
             <li className="py-6 text-4xl">
               <Link
                 onClick={clickHandler}
