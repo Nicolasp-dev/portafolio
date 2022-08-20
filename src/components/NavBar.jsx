@@ -16,8 +16,8 @@ const NavBar = () => {
   };
 
   const mobileVariant = {
-    open: { x: 0 },
-    close: { x: "-100%" },
+    open: { x: 0, transition: { duration: 0.2 } },
+    close: { x: "-100vw" },
   };
 
   return (
@@ -72,13 +72,14 @@ const NavBar = () => {
         {/* Mobile Menu */}
         <motion.nav
           className={
-            "absolute top-0 left-0 w-full h-screen bg-[#0c2a35f9] flex flex-col justify-center items-center text-[#fff] text-2xl "
+            nav
+              ? `absolute w-full top-0 h-screen bg-[#0c2a35f9] flex flex-col justify-center items-center text-[#fff] text-2xl`
+              : "hidden"
           }
           variants={mobileVariant}
           animate={nav ? "open" : "close"}
-          transition={{ duration: 0.2 }}
         >
-          <ul className="text-center">
+          <ul className="text-center mt-[5rem]">
             <li className="py-6 text-4xl">
               <Link
                 onClick={clickHandler}
