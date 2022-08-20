@@ -45,7 +45,7 @@ export const DUMMY_WORKS = [
   {
     image: `${Guess}`,
     gitHub: "https://github.com/Nicolas-pc-dev/Guess-My-Number",
-    website: "https://nicolas-pc-dev.github.io/Guess-My-Number/",
+    website: "https://nicolasp-dev.github.io/Guess-My-Number/",
     center: true,
   },
 ];
