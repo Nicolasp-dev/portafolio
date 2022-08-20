@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.019c7262.css",
-    "main.js": "/portafolio/static/js/main.684a34f9.js",
+    "main.js": "/portafolio/static/js/main.f4256e74.js",
     "static/media/BankAppDemo.png": "/portafolio/static/media/BankAppDemo.92529dc6dd2e9d541cdd.png",
     "static/media/Vet-teams.png": "/portafolio/static/media/Vet-teams.87abb069948c3ec04278.png",
     "static/media/CV-NicolasPeña.pdf": "/portafolio/static/media/CV-NicolasPeña.4a3f7395cfdaa4b2253c.pdf",
@@ -19,10 +19,10 @@
     "static/media/wave.svg": "/portafolio/static/media/wave.e7b6696258d6cb6f1d79dd0c1167764e.svg",
     "index.html": "/portafolio/index.html",
     "main.019c7262.css.map": "/portafolio/static/css/main.019c7262.css.map",
-    "main.684a34f9.js.map": "/portafolio/static/js/main.684a34f9.js.map"
+    "main.f4256e74.js.map": "/portafolio/static/js/main.f4256e74.js.map"
   },
   "entrypoints": [
     "static/css/main.019c7262.css",
-    "static/js/main.684a34f9.js"
+    "static/js/main.f4256e74.js"
   ]
 }
