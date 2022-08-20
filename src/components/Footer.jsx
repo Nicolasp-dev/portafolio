@@ -9,7 +9,7 @@ const Contact = () => {
       <img
         src={Waves}
         alt=""
-        className="absolute w-[100vw] h-full object-cover"
+        className="absolute w-[100vw] h-full object-cover bottom-0"
       />
       <div>
         <ul className="absolute bottom-5 w-full lg:hidden flex justify-center flex-col items-center">

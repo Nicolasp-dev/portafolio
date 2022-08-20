@@ -1,5 +1,5 @@
 import React from "react";
-import HomeBg from "../assets/Images/HomBg.jpg";
+import HomeBg from "../assets/Images/HomBg.webp";
 import { Link } from "react-scroll";
 import { MdOutlineDoubleArrow } from "react-icons/md";
 import { motion } from "framer-motion";
