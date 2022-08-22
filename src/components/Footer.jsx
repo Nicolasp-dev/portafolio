@@ -3,8 +3,9 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Waves from "../assets/Images/wave.svg";
 
 const Contact = () => {
+
+  
   return (
-    // bg-[#00445b]
     <footer className="w-full h-[21rem] bg-[#f6f6f6] relative">
       <img
         src={Waves}

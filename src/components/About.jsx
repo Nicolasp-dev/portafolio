@@ -56,10 +56,10 @@ const About = () => {
           <div className="flex flex-col gap-5  sm:text-lg font-thin text-justify">
             <p>
               Mi nombre es Nicolás Peña, soy médico veterinario con tres años de
-              experiencia profesional; Decidí ampliar mi conocimiento cautivado
-              por el impacto que las tecnologías tienen en el diario vivir y
-              motivado por los cambios globales, los cuales obligan
-              imperiosamente a prepararse y desarrollar habilidades IT.
+              experiencia profesional; Decidí ampliar mis conocimientos
+              cautivado por el impacto que las tecnologías tienen en el diario
+              vivir y motivado por los cambios globales que en efecto obligan
+              imperiosamente a preparar y desarrollar habilidades IT.
             </p>
             <p>
               Por lo anterior, inicié una ruta de aprendizaje enfocada al

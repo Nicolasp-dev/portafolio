@@ -23,14 +23,14 @@ const Home = () => {
         initial="hidden"
         animate="show"
       >
-        <h1 className="text-3xl sm:text-5xl font-bold shadow-2xl">
+        <h1 className="text-3xl sm:text-5xl font-bold shadow-2xl tracking-wider">
           Nicolas Peña
         </h1>
         <h2 className="text-3xl sm:text-5xl font-bold tracking-wider shadow-2xl">
-          Fullstack Developer Junior
+          Frontend Developer
         </h2>
-        <p className="tracking-wider text-lg sm:text-xl font-thin">
-          Conoce mi experiencia y mis proyectos.
+        <p className="tracking-wider text-lg sm:text-2xl font-thin">
+          Conoce mi experiencia y mis proyectos
         </p>
 
         <div className="w-full flex justify-center ">
