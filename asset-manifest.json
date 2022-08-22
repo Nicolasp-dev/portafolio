@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portafolio/static/css/main.21b24750.css",
-    "main.js": "/portafolio/static/js/main.545fcd82.js",
-    "static/media/CV-NicolasPeña.pdf": "/portafolio/static/media/CV-NicolasPeña.4a3f7395cfdaa4b2253c.pdf",
+    "main.css": "/portafolio/static/css/main.6611f67b.css",
+    "main.js": "/portafolio/static/js/main.ae7081c5.js",
+    "static/media/CV-NicolasPeña.pdf": "/portafolio/static/media/CV-NicolasPeña.e49a1ccd8ae4d2f96fa3.pdf",
     "static/media/HomBg.webp": "/portafolio/static/media/HomBg.371518bbb46fc9fc0444.webp",
     "static/media/BankAppDemo.webp": "/portafolio/static/media/BankAppDemo.0705d9c6bd28c304962e.webp",
     "static/media/Vet-teams.webp": "/portafolio/static/media/Vet-teams.f22f8e50d1d895acde9e.webp",
@@ -20,11 +20,11 @@
     "static/media/javascript.webp": "/portafolio/static/media/javascript.819950e52760bd55887e.webp",
     "static/media/wave.svg": "/portafolio/static/media/wave.e7b6696258d6cb6f1d79dd0c1167764e.svg",
     "index.html": "/portafolio/index.html",
-    "main.21b24750.css.map": "/portafolio/static/css/main.21b24750.css.map",
-    "main.545fcd82.js.map": "/portafolio/static/js/main.545fcd82.js.map"
+    "main.6611f67b.css.map": "/portafolio/static/css/main.6611f67b.css.map",
+    "main.ae7081c5.js.map": "/portafolio/static/js/main.ae7081c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.21b24750.css",
-    "static/js/main.545fcd82.js"
+    "static/css/main.6611f67b.css",
+    "static/js/main.ae7081c5.js"
   ]
 }
