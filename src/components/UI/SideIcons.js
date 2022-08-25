@@ -12,7 +12,7 @@ const SideIcons = () => {
     <div className="hidden lg:flex fixed flex-col top-[18rem] left-0 z-50">
       <ul>
         <motion.li
-          className="w-[10.5rem] h-[4.2rem] flex justify-between items-center ml-[-5.5rem]   bg-[#0a66c2] rounded-tr-md text-[#fff]"
+          className="w-[10.5rem] h-[4.2rem] flex justify-between items-center ml-[-5.5rem] rounded-tr-md  bg-[#0a66c2]  text-[#fff]"
           variants={sideIconsVariants}
           initial="hidden"
           animate="show"

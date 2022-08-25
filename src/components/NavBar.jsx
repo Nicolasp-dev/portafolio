@@ -1,12 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import { languageCtx } from "../context/languageCtx";
+// 3th P. Library
 import { FaBars, FaTimes } from "react-icons/fa";
-import SideIcons from "./UI/SideIcons";
-import CV from "../CV-NicolasPeña.pdf";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
+import { FormattedMessage } from "react-intl";
+// Components
+import LangFlags from "./UI/LangFlags";
+import SideIcons from "./UI/SideIcons";
+// Documents
+import CV from "../CV-NicolasPeña.pdf";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
+  const { languageHandler } = useContext(languageCtx);
 
   const clickHandler = () => setNav(!nav);
 
@@ -23,7 +30,7 @@ const NavBar = () => {
   return (
     <>
       <motion.nav
-        className="fixed w-full h-[4rem] sm:h-[5rem] shadow-xl bg-transparent backdrop-blur-sm z-50"
+        className="fixed w-full h-[5rem] shadow-xl bg-transparent backdrop-blur-sm z-50"
         variants={desktopVariant}
         initial="hidden"
         animate="show"
@@ -32,7 +39,7 @@ const NavBar = () => {
           {/* Menu */}
           <div
             onClick={clickHandler}
-            className="md:hidden z-20 text-[#fff] text-4xl absolute top-4 left-5"
+            className="md:hidden z-20 text-[#fff] text-4xl absolute top-6 left-5"
           >
             {!nav ? <FaBars /> : <FaTimes />}
           </div>
@@ -45,7 +52,7 @@ const NavBar = () => {
               </li>
               <li className="hover:scale-[1.1] duration-300">
                 <Link to="about" smooth={true} duration={500}>
-                  Acerca de
+                  <FormattedMessage id="menu.about" defaultMessage="About" />
                 </Link>
               </li>
               <li className="hover:scale-[1.1] duration-300">
@@ -55,18 +62,23 @@ const NavBar = () => {
               </li>
               <li className="hover:scale-[1.1] duration-300">
                 <Link to="work" smooth={true} duration={500}>
-                  Proyectos
+                  <FormattedMessage
+                    id="menu.projects"
+                    defaultMessage="Projects"
+                  />
                 </Link>
               </li>
-            </div>
-            <div>
               <li className="hover:scale-[1.1] duration-300">
                 <a href={CV} download>
-                  Descargar CV
+                  <FormattedMessage
+                    id="menu.download"
+                    defaultMessage="Download CV"
+                  />
                 </a>
               </li>
             </div>
           </ul>
+          <LangFlags languageHandler={languageHandler} />
         </div>
 
         {/* Mobile Menu */}
@@ -97,7 +109,7 @@ const NavBar = () => {
                 smooth={true}
                 duration={500}
               >
-                Acerca de
+                <FormattedMessage id="menu.about" defaultMessage="About" />
               </Link>
             </li>
             <li className="py-6 text-4xl">
@@ -117,12 +129,18 @@ const NavBar = () => {
                 smooth={true}
                 duration={500}
               >
-                Proyectos
+                <FormattedMessage
+                  id="menu.projects"
+                  defaultMessage="Projects"
+                />
               </Link>
             </li>
             <li className="py-6 text-4xl">
               <a href={CV} download>
-                Descargar CV
+                <FormattedMessage
+                  id="menu.download"
+                  defaultMessage="Download CV"
+                />
               </a>
             </li>
           </ul>

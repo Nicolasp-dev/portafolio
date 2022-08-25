@@ -1,0 +1,13 @@
+{
+  "home.header": "Get to know my experience and my projects",
+  
+  "about.greeting": "¡ Welcome !",
+  "about.header":  "I am passionate about reading, learning, applying and sharing knowledge about JavaScript implementation",
+  "about.fParagraph": "My name is Nicolás Peña, I am a veterinary doctor with three years of professional experience; I decided to expand my knowledge, captivated by the impact that technologies have on daily life and motivated by global changes that in effect compel the preparation and development of IT skills.",
+  "about.sParagraph": "As a result, I started a learning path focused on understanding JavaScript and its application in web development. With discipline, dedication and persistence, he was able to understand and capture the knowledge acquired in my personal projects.",
+  "about.subTitle": "React-hooks (Cornell Notes)",
+
+  "menu.about": "About",
+  "menu.projects": "Projects",
+  "menu.download": "Download CV"
+}

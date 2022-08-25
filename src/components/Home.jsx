@@ -3,6 +3,7 @@ import HomeBg from "../assets/Images/HomBg.webp";
 import { Link } from "react-scroll";
 import { MdOutlineDoubleArrow } from "react-icons/md";
 import { motion } from "framer-motion";
+import { FormattedMessage } from "react-intl";
 
 const Home = () => {
   const homeVariants = {
@@ -30,7 +31,10 @@ const Home = () => {
           Frontend Developer
         </h2>
         <p className="tracking-wider text-lg sm:text-2xl font-thin">
-          Conoce mi experiencia y mis proyectos
+          <FormattedMessage
+            id="home.header"
+            defaultMessage="Get to know my experience and my projects"
+          />
         </p>
 
         <div className="w-full flex justify-center ">
