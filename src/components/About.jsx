@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import { motion, useAnimation } from "framer-motion";
-import { FormattedMessage, FormattedDate } from "react-intl";
+import { FormattedMessage } from "react-intl";
 
 const About = () => {
   const { ref, inView } = useInView();
@@ -33,7 +33,6 @@ const About = () => {
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="font-bold flex flex-col justify-between text-center text-primary-text text-xl  sm:text-5xl">
             <FormattedMessage
-              className=""
               id="about.greeting"
               defaultMessage="¡ Welcome !"
             />

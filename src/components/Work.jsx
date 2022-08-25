@@ -9,7 +9,7 @@ const Work = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full py-[5rem]">
         <div className="border-b-[1px] border-[#ccc] py-3 text-center sm:text-left">
           <p className="text-4xl sm:text-5xl font-bold  text-primary-text">
-            <FormattedMessage id="menu.project" />
+            <FormattedMessage id="menu.projects" defaultMessage="¡ Welcome !" />
           </p>
         </div>
 
