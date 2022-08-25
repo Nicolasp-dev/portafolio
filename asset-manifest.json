@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.664f1447.css",
-    "main.js": "/portafolio/static/js/main.570f3855.js",
+    "main.js": "/portafolio/static/js/main.d6536588.js",
     "static/media/(ES)NicolasPeña-CV.pdf": "/portafolio/static/media/(ES)NicolasPeña-CV.dd6523ce618d2096efb1.pdf",
     "static/media/(US)NicolasPeña.CV.pdf": "/portafolio/static/media/(US)NicolasPeña.CV.6d88db680844741d56f9.pdf",
     "static/media/HomBg.webp": "/portafolio/static/media/HomBg.371518bbb46fc9fc0444.webp",
@@ -22,10 +22,10 @@
     "static/media/wave.svg": "/portafolio/static/media/wave.e7b6696258d6cb6f1d79dd0c1167764e.svg",
     "index.html": "/portafolio/index.html",
     "main.664f1447.css.map": "/portafolio/static/css/main.664f1447.css.map",
-    "main.570f3855.js.map": "/portafolio/static/js/main.570f3855.js.map"
+    "main.d6536588.js.map": "/portafolio/static/js/main.d6536588.js.map"
   },
   "entrypoints": [
     "static/css/main.664f1447.css",
-    "static/js/main.570f3855.js"
+    "static/js/main.d6536588.js"
   ]
 }
