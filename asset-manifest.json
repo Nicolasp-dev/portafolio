@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.664f1447.css",
-    "main.js": "/portafolio/static/js/main.ef36fed5.js",
+    "main.js": "/portafolio/static/js/main.3aa58197.js",
     "static/media/CV-NicolasPeña.pdf": "/portafolio/static/media/CV-NicolasPeña.e49a1ccd8ae4d2f96fa3.pdf",
     "static/media/HomBg.webp": "/portafolio/static/media/HomBg.371518bbb46fc9fc0444.webp",
     "static/media/BankAppDemo.webp": "/portafolio/static/media/BankAppDemo.0705d9c6bd28c304962e.webp",
@@ -21,10 +21,10 @@
     "static/media/wave.svg": "/portafolio/static/media/wave.e7b6696258d6cb6f1d79dd0c1167764e.svg",
     "index.html": "/portafolio/index.html",
     "main.664f1447.css.map": "/portafolio/static/css/main.664f1447.css.map",
-    "main.ef36fed5.js.map": "/portafolio/static/js/main.ef36fed5.js.map"
+    "main.3aa58197.js.map": "/portafolio/static/js/main.3aa58197.js.map"
   },
   "entrypoints": [
     "static/css/main.664f1447.css",
-    "static/js/main.ef36fed5.js"
+    "static/js/main.3aa58197.js"
   ]
 }
