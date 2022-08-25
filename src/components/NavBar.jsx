@@ -8,12 +8,11 @@ import { FormattedMessage } from "react-intl";
 // Components
 import LangFlags from "./UI/LangFlags";
 import SideIcons from "./UI/SideIcons";
-// Documents
-import CV from "../CV-NicolasPeña.pdf";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
-  const { languageHandler } = useContext(languageCtx);
+
+  const { CV, languageHandler } = useContext(languageCtx);
 
   const clickHandler = () => setNav(!nav);
 
