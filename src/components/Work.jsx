@@ -1,6 +1,7 @@
 import React from "react";
 import WorkUI from "./UI/WorkUI";
 import { DUMMY_WORKS } from "../data";
+import { FormattedMessage } from "react-intl";
 
 const Work = () => {
   return (
@@ -8,7 +9,7 @@ const Work = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full py-[5rem]">
         <div className="border-b-[1px] border-[#ccc] py-3 text-center sm:text-left">
           <p className="text-4xl sm:text-5xl font-bold  text-primary-text">
-            Proyectos
+            <FormattedMessage id="menu.project" />
           </p>
         </div>
 
