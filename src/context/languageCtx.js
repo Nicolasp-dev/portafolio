@@ -4,7 +4,7 @@ import English from "../lang/en-US.json";
 import Spanish from "../lang/es-ES.json";
 // Documents
 import EsCv from "../(ES)NicolasPeña-CV.pdf";
-import UsCv from "../(US)NicolasPeña.CV.pdf";
+import UsCv from "../(US)NicolasPeña-CV.pdf";
 
 const languageCtx = React.createContext();
 
