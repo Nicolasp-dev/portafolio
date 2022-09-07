@@ -31,9 +31,8 @@ export const DUMMY_SKILLS = [
 export const DUMMY_WORKS = [
   {
     image: `${vetTeams}`,
-    gitHub:
-      " https://github.com/gabrielcontrerasv/top-gun-javascript-project.git",
-    website: "https://tglpet.vercel.app/",
+    gitHub: "https://github.com/Nicolasp-dev/VetTeams",
+    website: "https://vet-teams.vercel.app/",
     center: false,
   },
   {

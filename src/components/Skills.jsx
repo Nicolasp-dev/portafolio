@@ -1,6 +1,7 @@
 import React from "react";
 import { DUMMY_SKILLS } from "../data.js";
 import SkillsUI from "./UI/SkillsUI";
+import { FormattedMessage } from "react-intl";
 
 const Skills = () => {
   return (
@@ -8,7 +9,7 @@ const Skills = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="mt-10 border-b-[1px] border-[#ccc] pb-3 text-center sm:text-left">
           <p className="text-4xl  sm:text-5xl font-bold inline text-primary-text">
-            Skills
+            <FormattedMessage id="menu.skills" defaultMessage="Skills" />
           </p>
         </div>
 

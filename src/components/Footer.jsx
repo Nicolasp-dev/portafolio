@@ -3,8 +3,6 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Waves from "../assets/Images/wave.svg";
 
 const Contact = () => {
-
-  
   return (
     <footer className="w-full h-[21rem] bg-[#f6f6f6] relative">
       <img
@@ -13,6 +11,7 @@ const Contact = () => {
         className="absolute w-[100vw] h-full object-cover bottom-0"
       />
       <div>
+        
         <ul className="absolute bottom-5 w-full lg:hidden flex justify-center flex-col items-center">
           <li className=" h-[4rem] flex justify-between items-center duration-300  rounded-tr-md text-[#fff]">
             <a

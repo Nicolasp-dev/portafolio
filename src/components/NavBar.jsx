@@ -9,22 +9,22 @@ import { FormattedMessage } from "react-intl";
 import LangFlags from "./UI/LangFlags";
 import SideIcons from "./UI/SideIcons";
 
+const desktopVariant = {
+  hidden: { y: -100 },
+  show: { y: 0, transition: { delay: 1, duration: 1 } },
+};
+
+const mobileVariant = {
+  open: { x: 0, transition: { duration: 0.2 } },
+  close: { x: "-100vw" },
+};
+
 const NavBar = () => {
   const [nav, setNav] = useState(false);
 
   const { CV, languageHandler } = useContext(languageCtx);
 
   const clickHandler = () => setNav(!nav);
-
-  const desktopVariant = {
-    hidden: { y: -100 },
-    show: { y: 0, transition: { delay: 1, duration: 1 } },
-  };
-
-  const mobileVariant = {
-    open: { x: 0, transition: { duration: 0.2 } },
-    close: { x: "-100vw" },
-  };
 
   return (
     <>
@@ -56,7 +56,7 @@ const NavBar = () => {
               </li>
               <li className="hover:scale-[1.1] duration-300">
                 <Link to="skills" smooth={true} duration={500}>
-                  Skills
+                  <FormattedMessage id="menu.skills" defaultMessage="Skills" />
                 </Link>
               </li>
               <li className="hover:scale-[1.1] duration-300">
@@ -118,7 +118,7 @@ const NavBar = () => {
                 smooth={true}
                 duration={500}
               >
-                Skills
+                <FormattedMessage id="menu.skills" defaultMessage="Skills" />
               </Link>
             </li>
             <li className="py-6 text-4xl">
