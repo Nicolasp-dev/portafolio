@@ -3,8 +3,8 @@ import { IntlProvider } from "react-intl";
 import English from "../lang/en-US.json";
 import Spanish from "../lang/es-ES.json";
 // Documents
-import EsCv from "../(ES)NicolasPeña-CV.pdf";
-import UsCv from "../(US)NicolasPeña-CV.pdf";
+import EsCv from "../Nicolas_Es_CV.pdf";
+import UsCv from "../Nicolas_En_CV.pdf";
 
 const languageCtx = React.createContext();
 
