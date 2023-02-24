@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.664f1447.css",
-    "main.js": "/portafolio/static/js/main.21db9690.js",
+    "main.js": "/portafolio/static/js/main.4e65e513.js",
     "static/media/Nicolas_Es_CV.pdf": "/portafolio/static/media/Nicolas_Es_CV.bd77b54c096ae4ebadc6.pdf",
-    "static/media/Nicolas_En_CV.pdf": "/portafolio/static/media/Nicolas_En_CV.9dbeb9fc62d09a65d6a4.pdf",
+    "static/media/Nicolas_En_CV.pdf": "/portafolio/static/media/Nicolas_En_CV.f9ac4200a841c368d844.pdf",
     "static/media/Sophos_Challenge.webp": "/portafolio/static/media/Sophos_Challenge.b57e822d7838eccbde2b.webp",
     "static/media/HomBg.webp": "/portafolio/static/media/HomBg.371518bbb46fc9fc0444.webp",
     "static/media/BankAppDemo.webp": "/portafolio/static/media/BankAppDemo.0705d9c6bd28c304962e.webp",
@@ -25,10 +25,10 @@
     "static/media/wave.svg": "/portafolio/static/media/wave.e7b6696258d6cb6f1d79dd0c1167764e.svg",
     "index.html": "/portafolio/index.html",
     "main.664f1447.css.map": "/portafolio/static/css/main.664f1447.css.map",
-    "main.21db9690.js.map": "/portafolio/static/js/main.21db9690.js.map"
+    "main.4e65e513.js.map": "/portafolio/static/js/main.4e65e513.js.map"
   },
   "entrypoints": [
     "static/css/main.664f1447.css",
-    "static/js/main.21db9690.js"
+    "static/js/main.4e65e513.js"
   ]
 }
