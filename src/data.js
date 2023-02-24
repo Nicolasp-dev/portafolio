@@ -37,7 +37,7 @@ export const DUMMY_WORKS = [
     image: `${SophosApp}`,
     gitHub: "https://github.com/Nicolasp-dev/Sophos-App",
     website: "https://watch.wave.video/Uz0pvBV66IfMieHg",
-    center: false,
+    center: true,
   },
   {
     image: `${vetTeams}`,
