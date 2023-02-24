@@ -42,11 +42,10 @@ const About = () => {
                 id="about.header"
                 defaultMessage="I am passionate about reading, learning, applying and sharing knowledge about JavaScript implementation"
               />
-              "
+              "<p>Mahatma Gandhi</p>
             </i>
             <div>
               <p className=" text-2xl mb-5">
-                {" "}
                 💻 + ☕ = ❤️ <br />
               </p>
               <a
