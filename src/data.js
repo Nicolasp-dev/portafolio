@@ -34,27 +34,27 @@ export const DUMMY_SKILLS = [
 
 export const DUMMY_WORKS = [
   {
-    image: `${SophosApp}`,
-    gitHub: "https://github.com/Nicolasp-dev/Sophos-App",
-    website: "https://watch.wave.video/Uz0pvBV66IfMieHg",
-    center: true,
-  },
-  {
     image: `${vetTeams}`,
     gitHub: "https://github.com/Nicolasp-dev/VetTeams",
     website: "https://vet-teams.vercel.app/",
     center: false,
   },
   {
-    image: `${BankApp}`,
-    gitHub: "https://github.com/Nicolas-pc-dev/Guess-My-Number",
-    website: "https://npc-bankappdemo.netlify.app/",
+    image: `${SophosApp}`,
+    gitHub: "https://github.com/Nicolasp-dev/Sophos-App",
+    website: "https://watch.wave.video/Uz0pvBV66IfMieHg",
     center: true,
   },
   {
     image: `${Guess}`,
     gitHub: "https://github.com/Nicolas-pc-dev/Guess-My-Number",
     website: "https://nicolasp-dev.github.io/Guess-My-Number/",
+    center: true,
+  },
+  {
+    image: `${BankApp}`,
+    gitHub: "https://github.com/Nicolas-pc-dev/Guess-My-Number",
+    website: "https://npc-bankappdemo.netlify.app/",
     center: true,
   },
 ];
