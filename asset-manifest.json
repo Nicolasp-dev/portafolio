@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.664f1447.css",
-    "main.js": "/portafolio/static/js/main.4e65e513.js",
-    "static/media/Nicolas_Es_CV.pdf": "/portafolio/static/media/Nicolas_Es_CV.bd77b54c096ae4ebadc6.pdf",
-    "static/media/Nicolas_En_CV.pdf": "/portafolio/static/media/Nicolas_En_CV.f9ac4200a841c368d844.pdf",
+    "main.js": "/portafolio/static/js/main.f6c241d0.js",
+    "static/media/Nicolas_Es_CV.pdf": "/portafolio/static/media/Nicolas_Es_CV.30ae342d4de0c66b2b48.pdf",
+    "static/media/Nicolas_En_CV.pdf": "/portafolio/static/media/Nicolas_En_CV.43c383d8a005e796f327.pdf",
     "static/media/Sophos_Challenge.webp": "/portafolio/static/media/Sophos_Challenge.b57e822d7838eccbde2b.webp",
     "static/media/HomBg.webp": "/portafolio/static/media/HomBg.371518bbb46fc9fc0444.webp",
     "static/media/BankAppDemo.webp": "/portafolio/static/media/BankAppDemo.0705d9c6bd28c304962e.webp",
@@ -12,7 +12,6 @@
     "static/media/Guess.webp": "/portafolio/static/media/Guess.bf8d8a046a29a3c17127.webp",
     "static/media/react.webp": "/portafolio/static/media/react.d28fa2e4e3804797d1f2.webp",
     "static/media/Kotlin.webp": "/portafolio/static/media/Kotlin.2ba9ec624d202b691375.webp",
-    "static/media/Figma.webp": "/portafolio/static/media/Figma.3a51c3df6a4e6d043244.webp",
     "static/media/node.webp": "/portafolio/static/media/node.81d549b2c6b51cf0ae0d.webp",
     "static/media/mongo.webp": "/portafolio/static/media/mongo.a3bd15f6739fef9a9ca8.webp",
     "static/media/github.webp": "/portafolio/static/media/github.b24d898561795d9fc43c.webp",
@@ -25,10 +24,10 @@
     "static/media/wave.svg": "/portafolio/static/media/wave.e7b6696258d6cb6f1d79dd0c1167764e.svg",
     "index.html": "/portafolio/index.html",
     "main.664f1447.css.map": "/portafolio/static/css/main.664f1447.css.map",
-    "main.4e65e513.js.map": "/portafolio/static/js/main.4e65e513.js.map"
+    "main.f6c241d0.js.map": "/portafolio/static/js/main.f6c241d0.js.map"
   },
   "entrypoints": [
     "static/css/main.664f1447.css",
-    "static/js/main.4e65e513.js"
+    "static/js/main.f6c241d0.js"
   ]
 }
