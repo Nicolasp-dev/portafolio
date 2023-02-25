@@ -1,5 +1,4 @@
 import Css from "./assets/Images/css.webp";
-import Figma from "./assets/Images/Figma.webp";
 import Git from "./assets/Images/Git.webp";
 import GitHub from "./assets/Images/github.webp";
 import Html from "./assets/Images/html.webp";
