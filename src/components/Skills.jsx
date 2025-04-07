@@ -7,8 +7,8 @@ const Skills = () => {
   return (
     <div name="skills" className="w-full  bg-[#f6f6f6] py-[3rem]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="mt-10 border-b-[1px] border-[#ccc] pb-3 text-center sm:text-left">
-          <p className="text-4xl  sm:text-5xl font-bold inline text-primary-text">
+        <div className="mt-10 pb-3 text-center sm:text-left">
+          <p className="text-4xl sm:text-5xl font-bold text-center text-[#00445b] mb-12 border-b-2 pb-4 border-[#ccc]">
             <FormattedMessage id="menu.skills" defaultMessage="Skills" />
           </p>
         </div>

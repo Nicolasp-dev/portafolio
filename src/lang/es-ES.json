@@ -1,14 +1,40 @@
 {
-  "home.header" : " Conoce mi experiencia y mis proyectos",
-
+  "home.header": " Conoce mi experiencia y mis proyectos",
   "about.greeting": "¡ Bienvenido !",
-  "about.header":  "Vive como si fueses a morir mañana, aprende como si fueses a vivir para siempre",
-  "about.fParagraph": "Soy desarrollador Frontend con conocimientos en Backend y una gran pasión por la tecnología. Mi compromiso y disciplina en el trabajo son altos, siempre buscando ofrecer soluciones innovadoras y de calidad para satisfacer las necesidades de los proyectos",
-  "about.sParagraph": "Me agrada trabajar en equipo y colaborar para alcanzar objetivos comunes. Siempre estoy en constante aprendizaje para mejorar mis habilidades y mantenerme actualizado en las últimas tendencias y tecnologías del mercado. Soy una persona proactiva y enfocada en los resultados, dispuesta a enfrentar nuevos desafíos y oportunidades en el mundo de la tecnología.",
+  "about.header": "La única forma de ir rápido es hacerlo bien.",
+  "about.fParagraph": "Desarrollador Frontend creativo y orientado a resultados, con sólida experiencia en transformar necesidades de usuarios en interfaces intuitivas, responsivas y de alto rendimiento. Dominio de tecnologías modernas para el desarrollo de aplicaciones web y móviles adaptables, enfocadas en la experiencia del usuario y la eficiencia.",
+  "about.sParagraph": "Aporto una actitud colaborativa y un enfoque de trabajo estructurado que que favorece la entrega constante de soluciones confiables y aplicables al entorno real.",
   "about.subTitle": "React-hooks (Notas Cornell)",
-  
   "menu.about": "Acerca",
-  "menu.skills": "Habilidades",
-  "menu.projects": "Proyectos",
-  "menu.download": "Descargar CV"
+  "menu.skills": "Stack",
+  "menu.projects": "Proyectos de Formación",
+  "menu.download": "Descargar CV",
+  "menu.experience": "Experiencia",
+  "experience.title": "Experiencia Laboral",
+  "experience.accenture.title": "Desarrollador Frontend & Móvil",
+  "experience.accenture.company": "Accenture – Cliente: Nequi Colombia",
+  "experience.accenture.date": "Abril 2024 – Presente",
+  "experience.accenture.tasks": [
+    "Desarrollo de aplicaciones internas aplicando principios de Clean Architecture.",
+    "Construcción de funcionalidades móviles escalables con Angular e Ionic.",
+    "Aseguramiento de calidad mediante testing unitario con Jest.",
+    "Participación activa en ceremonias ágiles (Scrum)."
+  ],
+  "experience.accenture.tech": [
+    "Angular",
+    "Ionic",
+    "Jest"
+  ],
+  "experience.suti.title": "Desarrollador Frontend",
+  "experience.suti.company": "Suti, IT Services",
+  "experience.suti.date": "Abril 2023 – Abril 2024",
+  "experience.suti.tasks": [
+    "Traducción de diseños Figma a interfaces funcionales.",
+    "Implementación de flujos de datos entre componentes.",
+    "Mantenimiento y mejora del código para mayor rendimiento."
+  ],
+  "experience.suti.tech": [
+    "Angular",
+    "Jest"
+  ]
 }

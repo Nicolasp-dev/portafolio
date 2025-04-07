@@ -25,12 +25,12 @@ const WorkUI = ({ image, gitHub, website, center }) => {
     <motion.div
       ref={ref}
       animate={animation}
-      className="flex flex-col bg-[#fff] rounded-md shadow-md w-full h-[15rem] sm:h-[35rem] overflow-hidden relative"
+      className="flex flex-col bg-[#fff] rounded-md shadow-md w-full h-[15rem] sm:h-[12rem] overflow-hidden relative"
     >
       <img
-        className={`w-full h-full absolute object-cover sm:object-cover ${position} `}
+        className={`w-full h-full sm:h-52 object-cover ${position}`}
         src={image}
-        alt=""
+        alt="Project preview"
       />
       <div className=" bg-[#242e4c86] text-[#fff] -bottom-[3rem] hover:bottom-0 duration-300 absolute w-full h-[6rem] z-10">
         <h2 className="text-center py-3 text-lg sm:text-xl font-semibold tracking-wider">

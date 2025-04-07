@@ -38,11 +38,11 @@ const NavBar = () => {
           {/* Menu */}
           <div
             onClick={clickHandler}
-            className="md:hidden z-20 text-[#fff] text-4xl absolute top-6 left-5"
+            className="lg:hidden z-20 text-[#fff] text-4xl absolute top-6 left-5"
           >
             {!nav ? <FaBars /> : <FaTimes />}
           </div>
-          <ul className="h-full hidden md:flex gap-8 text-xl tracking-wider text-[#fff] items-center justify-between mx-4">
+          <ul className="h-full hidden lg:flex gap-8 text-xl tracking-wider text-[#fff] items-center justify-between mx-4">
             <div className="flex">
               <li className="hover:scale-[1.1] duration-300">
                 <Link to="home" smooth={true} duration={500}>
@@ -55,24 +55,23 @@ const NavBar = () => {
                 </Link>
               </li>
               <li className="hover:scale-[1.1] duration-300">
+                <Link to="experience" smooth={true} duration={500}>
+                  <FormattedMessage id="menu.experience" defaultMessage="Experience" />
+                </Link>
+              </li>
+              <li className="hover:scale-[1.1] duration-300">
                 <Link to="skills" smooth={true} duration={500}>
                   <FormattedMessage id="menu.skills" defaultMessage="Skills" />
                 </Link>
               </li>
               <li className="hover:scale-[1.1] duration-300">
                 <Link to="work" smooth={true} duration={500}>
-                  <FormattedMessage
-                    id="menu.projects"
-                    defaultMessage="Projects"
-                  />
+                  <FormattedMessage id="menu.projects" defaultMessage="Projects" />
                 </Link>
               </li>
               <li className="hover:scale-[1.1] duration-300">
                 <a href={CV} download>
-                  <FormattedMessage
-                    id="menu.download"
-                    defaultMessage="Download CV"
-                  />
+                  <FormattedMessage id="menu.download" defaultMessage="Download CV" />
                 </a>
               </li>
             </div>
@@ -92,54 +91,33 @@ const NavBar = () => {
         >
           <ul className="text-center ">
             <li className="py-6 text-4xl">
-              <Link
-                onClick={clickHandler}
-                to="home"
-                smooth={true}
-                duration={500}
-              >
+              <Link onClick={clickHandler} to="home" smooth={true} duration={500}>
                 Home
               </Link>
             </li>
             <li className="py-6 text-4xl">
-              <Link
-                onClick={clickHandler}
-                to="about"
-                smooth={true}
-                duration={500}
-              >
+              <Link onClick={clickHandler} to="about" smooth={true} duration={500}>
                 <FormattedMessage id="menu.about" defaultMessage="About" />
               </Link>
             </li>
             <li className="py-6 text-4xl">
-              <Link
-                onClick={clickHandler}
-                to="skills"
-                smooth={true}
-                duration={500}
-              >
+              <Link onClick={clickHandler} to="experience" smooth={true} duration={500}>
+                <FormattedMessage id="menu.experience" defaultMessage="About" />
+              </Link>
+            </li>
+            <li className="py-6 text-4xl">
+              <Link onClick={clickHandler} to="skills" smooth={true} duration={500}>
                 <FormattedMessage id="menu.skills" defaultMessage="Skills" />
               </Link>
             </li>
             <li className="py-6 text-4xl">
-              <Link
-                onClick={clickHandler}
-                to="work"
-                smooth={true}
-                duration={500}
-              >
-                <FormattedMessage
-                  id="menu.projects"
-                  defaultMessage="Projects"
-                />
+              <Link onClick={clickHandler} to="work" smooth={true} duration={500}>
+                <FormattedMessage id="menu.projects" defaultMessage="Projects" />
               </Link>
             </li>
             <li className="py-6 text-4xl">
               <a href={CV} download>
-                <FormattedMessage
-                  id="menu.download"
-                  defaultMessage="Download CV"
-                />
+                <FormattedMessage id="menu.download" defaultMessage="Download CV" />
               </a>
             </li>
           </ul>

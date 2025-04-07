@@ -6,17 +6,19 @@ import Work from "./components/Work";
 import Footer from "./components/Footer";
 
 import "./index.css";
+import Experience from "./components/Experience";
 
 function App() {
   return (
-    <div>
+    <section>
       <NavBar />
       <Home />
       <About />
+      <Experience />
       <Skills />
       <Work />
       <Footer />
-    </div>
+    </section>
   );
 }
 

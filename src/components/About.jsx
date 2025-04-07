@@ -32,30 +32,19 @@ const About = () => {
       >
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="font-bold flex flex-col justify-between text-center text-primary-text text-xl  sm:text-5xl">
-            <FormattedMessage
-              id="about.greeting"
-              defaultMessage="¡ Welcome !"
-            />
+            <FormattedMessage id="about.greeting" defaultMessage="¡ Welcome !" />
             <i className="text-primary-text mt-5 sm:mt-0 sm:text-xl font-medium">
               "
               <FormattedMessage
                 id="about.header"
                 defaultMessage="I am passionate about reading, learning, applying and sharing knowledge about JavaScript implementation"
               />
-              "<p>Mahatma Gandhi</p>
+              "<p>Robert C. Martins</p>
             </i>
             <div>
               <p className=" text-2xl mb-5">
                 💻 + ☕ = ❤️ <br />
               </p>
-              <a
-                href="https://github.com/Nicolas-pc-dev/React-Hooks"
-                target="_blank"
-                rel="noreferrer"
-                className="  sm:text-xl text-primary-text font-normal "
-              >
-                📚 <FormattedMessage id="about.subTitle" />
-              </a>{" "}
             </div>
           </div>
           <div className="flex flex-col gap-5  sm:text-lg font-thin text-justify">
