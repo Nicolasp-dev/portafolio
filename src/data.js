@@ -53,13 +53,13 @@ export const experiences = {
     {
       title: "Desarrollador Frontend",
       company: "Suti, IT Services",
-      date: "Abril 2023 – Abril 2024",
+      date: "Abril 2022 – Abril 2024",
       tasks: [
         "Traducción de diseños Figma a interfaces funcionales.",
         "Implementación de flujos de datos entre componentes.",
         "Mantenimiento y mejora del código para mayor rendimiento.",
       ],
-      tech: ["Angular", "Jest"],
+      tech: ["Angular", "Ionic", "Jest"],
     },
   ],
   "en-US": [
@@ -78,13 +78,13 @@ export const experiences = {
     {
       title: "Frontend Developer",
       company: "Suti, IT Services",
-      date: "April 2023 – April 2024",
+      date: "April 2022 – April 2024",
       tasks: [
         "Translated Figma designs into functional UIs.",
         "Implemented data flows between components.",
         "Maintained and improved code for better performance.",
       ],
-      tech: ["Angular", "Jest"],
+      tech: ["Angular", "Ionic", "Jest"],
     },
   ],
 };
