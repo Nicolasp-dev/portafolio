@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.16aeff34.css",
-    "main.js": "/portafolio/static/js/main.01f20bfe.js",
+    "main.js": "/portafolio/static/js/main.334c3f76.js",
     "static/media/CV_Nicolas_Frontend_Es.pdf": "/portafolio/static/media/CV_Nicolas_Frontend_Es.8b6030361383ea3ae011.pdf",
     "static/media/CV_Nicolas_Frontend_En.pdf": "/portafolio/static/media/CV_Nicolas_Frontend_En.012f706b84d4762dffd7.pdf",
     "static/media/Angular.png": "/portafolio/static/media/Angular.12109f07674fc3a5578b.png",
@@ -24,10 +24,10 @@
     "static/media/wave.svg": "/portafolio/static/media/wave.e7b6696258d6cb6f1d79dd0c1167764e.svg",
     "index.html": "/portafolio/index.html",
     "main.16aeff34.css.map": "/portafolio/static/css/main.16aeff34.css.map",
-    "main.01f20bfe.js.map": "/portafolio/static/js/main.01f20bfe.js.map"
+    "main.334c3f76.js.map": "/portafolio/static/js/main.334c3f76.js.map"
   },
   "entrypoints": [
     "static/css/main.16aeff34.css",
-    "static/js/main.01f20bfe.js"
+    "static/js/main.334c3f76.js"
   ]
 }
