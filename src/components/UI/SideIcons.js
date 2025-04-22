@@ -20,14 +20,14 @@ const SideIcons = () => {
         >
           <a
             className="ml-2 flex justify-between items-center gap-7 text-gray-300 "
-            href="https://www.linkedin.com/in/nicolaspe%C3%B1a-dev/"
+            href="https://www.linkedin.com/in/nicpen-io/"
             rel="noreferrer"
             target="_blank"
           >
             LinkedIn <FaLinkedin size={32} />
           </a>
         </motion.li>
-        <motion.li
+        {/* <motion.li
           className="w-[10.5rem] h-[4.2rem] flex justify-between items-center ml-[-5.5rem] bg-[#1f1e1e] text-[#fff] rounded-br-md"
           variants={sideIconsVariants}
           initial="hidden"
@@ -42,7 +42,7 @@ const SideIcons = () => {
           >
             Git-Hub <FaGithub size={32} />
           </a>
-        </motion.li>
+        </motion.li> */}
       </ul>
     </div>
   );
